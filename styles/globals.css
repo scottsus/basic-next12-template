@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+  background-color: #171A21;
+  overflow-x: hidden;
+}
+
+body, #__next {
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+input {
+  border: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 450px) {
+  body, #__next {
+      width: 90%;
+      margin: 0 auto;
+  }
+}
